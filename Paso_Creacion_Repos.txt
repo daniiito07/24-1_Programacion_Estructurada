@@ -1,1 +1,2 @@
-Hola,  días :)
+Crear una cuenta Git Hub
+Una vez teniendo creada la cuenta, vamos a la pestaña "repositorios"
