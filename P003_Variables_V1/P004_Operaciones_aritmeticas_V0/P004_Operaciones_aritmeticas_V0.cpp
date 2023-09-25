@@ -86,7 +86,7 @@ int main()
     std::cout << "El resultado de la multiplicación es: " << i << std::endl;
     float j, k, l;
     j = 7;
-    k = 3;
+    k = mi_primer_caracter;
     l = j + k;
     std::cout << "El resultado de la suma es: " << l << std::endl;
     float m, n;
