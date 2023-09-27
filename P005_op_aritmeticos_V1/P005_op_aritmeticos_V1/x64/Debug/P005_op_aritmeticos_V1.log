@@ -1,0 +1,4 @@
+﻿  P005_op_aritmeticos_V1.cpp
+C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\P005_op_aritmeticos_V1\P005_op_aritmeticos_V1\P005_op_aritmeticos_V1.cpp(39,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\P005_op_aritmeticos_V1\P005_op_aritmeticos_V1\P005_op_aritmeticos_V1.cpp(43,12): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  P005_op_aritmeticos_V1.vcxproj -> C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\P005_op_aritmeticos_V1\x64\Debug\P005_op_aritmeticos_V1.exe
