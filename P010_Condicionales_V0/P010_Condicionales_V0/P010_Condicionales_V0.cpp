@@ -3,22 +3,23 @@
 // Se realizará un pequeño log in para el usuario con decisiones simples 
 
 #include <iostream>
-#include <locale>
+#include <locale.h>
 #include <string>
 
 int main()
 {
-    setlocale(LC_ALL, "es_MX.UTF - 8");
+    setlocale(LC_ALL, "es_MX.UTF-8");
 
     std::string usuario;
     std::string contrasena;
-
+ 
+    std::cout << "Bienvenido, a continuación podrás acceder a tu cuenta :D\n";
     do
     {
         std::cout << "Usuario: \n";
         std::cin >> usuario;
 
-        std::cout << "Constrasena: \n";
+        std::cout << "Constraseña: \n";
         std::cin >> contrasena;
 
         if (usuario == "DANIIITO07")
@@ -26,20 +27,20 @@ int main()
             if (contrasena == "123456")
             {
                
-                std::cout << "      Entraste al programa :D\n  ";
+                std::cout << "      Bienvenido de nuevo :D\n  ";
                
             }
             else
             {
                 
-                std::cout << "       Intenta nuevamente D:\n         ";
+                std::cout << "       Intenta nuevamente, uno de tus datos no coincide D:\n         ";
               
             }
         }
         else
         {
           
-            std::cout << "       Intenta nuevamente D:\n         ";
+            std::cout << "       Intenta nuevamente, uno de tus datos no coincide D:\n         ";
       
         }
     } while (usuario != "DANIIITO07"); (contrasena != "123456");
