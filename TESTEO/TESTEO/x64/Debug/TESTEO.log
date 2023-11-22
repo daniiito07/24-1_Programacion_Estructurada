@@ -1,21 +1,3 @@
 ﻿  TESTEO.cpp
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(45,9): error C2360: la inicialización de 'j' se omite en la etiqueta 'case'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(37,17): message : vea la declaración de 'j'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(56,9): error C2360: la inicialización de 'i' se omite en la etiqueta 'case'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(55,17): message : vea la declaración de 'i'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(56,9): error C2360: la inicialización de 'k' se omite en la etiqueta 'case'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(47,17): message : vea la declaración de 'k'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(56,9): error C2360: la inicialización de 'j' se omite en la etiqueta 'case'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(37,17): message : vea la declaración de 'j'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(65,9): error C2360: la inicialización de 'i' se omite en la etiqueta 'case'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(55,17): message : vea la declaración de 'i'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(65,9): error C2360: la inicialización de 'k' se omite en la etiqueta 'case'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(47,17): message : vea la declaración de 'k'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(65,9): error C2360: la inicialización de 'j' se omite en la etiqueta 'case'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(37,17): message : vea la declaración de 'j'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(76,9): error C2361: la inicialización de 'i' se omite en la etiqueta 'default'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(55,17): message : vea la declaración de 'i'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(76,9): error C2361: la inicialización de 'k' se omite en la etiqueta 'default'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(47,17): message : vea la declaración de 'k'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(76,9): error C2361: la inicialización de 'j' se omite en la etiqueta 'default'
-C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(37,17): message : vea la declaración de 'j'
+C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\TESTEO\TESTEO.cpp(35,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  TESTEO.vcxproj -> C:\Users\LABORATORIO 210\Desktop\Daniel Reyes_Progra_Mau------NO BORRAR\24-1_Programacion_Estructurada\TESTEO\x64\Debug\TESTEO.exe

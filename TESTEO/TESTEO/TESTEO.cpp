@@ -1,84 +1,71 @@
+// P017_Matrices_V0.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+// Daniel Reyes C.
+// Generar 3 matrices distintas, una de 3, de 5 y de 10 
 #include <iostream>
-#include <chrono>
-#include <thread>
+#include <cstdlib>
+#include <ctime>
+#include <Windows.h>
+#include <Locale.h>
 
-void delay(int millisegundos)
-{
-    std::this_thread::sleep_for(std::chrono::milliseconds(millisegundos));
+
+void llenarMatriz(int matriz[][10], int size) {
+    for (int i = 0; i < size; ++i) {
+        for (int j = 0; j < size; ++j) {
+            matriz[i][j] = rand() % 10;
+        }
+    }
+}
+void mostrarMatriz(int matriz[][10], int size) {
+    for (int i = 0; i < size; ++i) {
+        for (int j = 0; j < size; ++j) {
+            std::cout << matriz[i][j] << " ";
+            Sleep(50);
+        }
+        std::cout << std::endl;
+    }
 }
 
-int main()
-{
-    int opt;
-    bool repetir = true;
+int main() {
+    setlocale(LC_ALL, "Es_Mx.UTF-8");
+    int matriz1[10][10];
+    int matriz2[10][10];
+    int matriz3[10][10];
 
+
+    srand(time(NULL));
+
+    llenarMatriz(matriz1, 3);
+    llenarMatriz(matriz2, 5);
+    llenarMatriz(matriz3, 10);
+    bool repetir = true;
+    int opcion;
     while (repetir)
     {
-        std::cout << "1.- Contador de 1000 a 0 (for)\n";
-        std::cout << "2.- Contador de 1000 a 0 (while)\n";
-        std::cout << "3.- Contador de 1000 a 0 (do-while)\n";
-        std::cout << "4.- Contador de 0 a 100 lentamente\n";
-        std::cout << "5.- Contador 10x10\n";
-        std::cout << "¿Qué contador quieres utilizar? (1/2/3/4/5): ";
-        std::cin >> opt;
+        std::cout << " --- Elija la matriz que quieres mostrar ---\n ";
+        std::cout << "--- 1. Matriz de 3 ---\n";
+        std::cout << " --- 2. Matriz de 5 ---\n";
+        std::cout << " --- 3. Matriz de 10 ---\n";
+        std::cin >> opcion;
 
-        switch (opt)
-        {
+        switch (opcion) {
         case 1:
-            // Contador de 1000 a 0 con for
-            for (int i = 1000; i >= 0; i--)
-            {
-                std::cout << "Contador " << i << std::endl;
-            }
+            mostrarMatriz(matriz1, 3);
             break;
-
         case 2:
-            // Contador de 1000 a 0 con while
-            int j = 1000;
-            while (j >= 0)
-            {
-                std::cout << "Contador " << j << std::endl;
-                j--;
-            }
+            mostrarMatriz(matriz2, 5);
             break;
-
         case 3:
-            // Contador de 1000 a 0 con do-while
-            int k = 1000;
-            do
-            {
-                std::cout << "Contador " << k << std::endl;
-                k--;
-            } while (k >= 0);
+            mostrarMatriz(matriz3, 10);
             break;
-
-            int i = 0;
-        case 4:
-            // Contar lentamente de 0 a 100
-            for (int i = 0; i <= 100; i++)
-            {
-                std::cout << "Contador " << i << std::endl;
-                delay(200);
-            }        
-            break;
-
-        case 5:
-            // Contador 10x10
-            for (int i = 1; i <= 100; i++)
-            {
-                std::cout << i << " ";
-                if (i % 10 == 0) {
-                    std::cout << std::endl;
-                }
-            }
-            break;
-
         default:
-            std::cout << "Opción no válida. Por favor, elige una opción válida.\n";
+            if (opcion != 0) {
+                std::cout << "Opción inválida." << std::endl;
+            }
             break;
         }
-
-        std::cout << "¿Deseas repetir el contador? (0 = NO, 1 = SI): ";
+        std::cout << "--- ¿Quieres generar una matriz distinta? ---\n";
+        std::cout << "--- 1. Si ---\n";
+        std::cout << "--- 0. No ---\n";
         std::cin >> repetir;
     }
 
